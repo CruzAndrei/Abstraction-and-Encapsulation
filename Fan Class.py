@@ -17,14 +17,18 @@ class Fan():
     #String method
     def __str__(self): 
         if self.on == True:             
-            return
+            return 
         else:
             return
-          
-        
-#method
-
-#showing the speed
+    #method   
+    def get_Speed(self):   
+        #showing the speed
+        if self.speed == 1:             
+            return "SLOW"         
+        elif self.speed == 2:             
+            return "MEDIUM"         
+        elif self.speed == 3:             
+            return "FAST"  
 #method for speed
 #radius
 #color
