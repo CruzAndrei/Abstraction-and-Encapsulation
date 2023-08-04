@@ -2,6 +2,9 @@
 class Pet():
 #constructor with arugments
     def __init__(self):
+        self.__name = ''
+        self.__animal_type = ''
+        self.__age = ''
 
 #name method to return name
 #name method to set the name
