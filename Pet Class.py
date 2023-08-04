@@ -40,3 +40,5 @@ animal.set_age(pet_age)
 
 #print result
 print('\nPet name : ', animal.get_name())
+print('\nAnimal type: ', animal.get_animal_Type())
+print('\nPet age: ', animal.get_age())
