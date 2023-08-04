@@ -32,7 +32,10 @@ class Fan():
         #speed set
     def set_Speed(self,speed):         
         self.speed = speed  
-#method for speed
-#radius
+    #radius
+    def get_Radius(self):         
+        return self.radius      
+    def set_Radius(self,radius):         
+        self.radius = radius 
 #color
 #on/off
