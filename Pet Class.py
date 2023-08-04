@@ -13,7 +13,11 @@ class Pet():
     def set_name(self, name):
         self.__name = name
 #animal type to return type
+    def get_animal_Type(self):
+        return self.__animal_type
 #animal type to set type
+    def set_animal_Type(self, animal_Type):
+        self.__animal_type = animal_Type
 #age type to return age
 #age type to set age
 
