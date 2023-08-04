@@ -10,6 +10,8 @@ class Pet():
     def get_name(self):
         return self.__name
 #name method to set the name
+    def set_name(self, name):
+        self.__name = name
 #animal type to return type
 #animal type to set type
 #age type to return age
