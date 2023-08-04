@@ -29,6 +29,8 @@ class Pet():
 animal = Pet()
 #Asking user for inputs
 #name
+pet_name= input('\nPlease enter the name : ')
+animal.set_name(pet_name)
 #type
 #age
 
