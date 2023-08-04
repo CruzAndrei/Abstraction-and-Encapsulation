@@ -43,3 +43,9 @@ class Fan():
     def set_Color(self,color):         
         self.color = color
 #on/off
+    def Set_ON(self):         
+        self.on = True      
+    def Set_OFF(self):         
+        self.on = False      
+    def get_ON(self):         
+        return self.on  
