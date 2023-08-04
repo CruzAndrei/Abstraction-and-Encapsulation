@@ -35,3 +35,6 @@ def main():
     for i in range(5):
         car.brake()
         print (car.get_speed())
+        
+if __name__ == "__main__":
+    main()
