@@ -39,3 +39,4 @@ pet_age = input('Please enter the age of Pet : ')
 animal.set_age(pet_age)
 
 #print result
+print('\nPet name : ', animal.get_name())
