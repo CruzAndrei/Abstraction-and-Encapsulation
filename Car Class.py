@@ -30,3 +30,8 @@ def main():
         print (car.get_speed())   
 
 # calls the brake method five times.
+    print ("\nDecelerating . . .\n")
+
+    for i in range(5):
+        car.brake()
+        print (car.get_speed())
