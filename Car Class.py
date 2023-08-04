@@ -18,12 +18,15 @@ class Car(object):
         #current speed of the car
         return self.__speed
 
-
 #car method
 def main():
 # create a Car object
     car = Car("1990 Laser", "Plymouth")
 
 # calls the accelerate method
+    print ("\nAccelerating . . .\n")
+    for i in range(5):
+        car.accelerate()
+        print (car.get_speed())   
 
 # calls the brake method five times.
