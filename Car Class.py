@@ -1,4 +1,7 @@
+
+class Car(object):
 # Constructor, takes arguments and constructs the class
+    def __init__(self, year, make):
         
 #Accelerate method
 #" Accelerate car. "
