@@ -2,7 +2,9 @@
 class Car(object):
 # Constructor, takes arguments and constructs the class
     def __init__(self, year, make):
-        
+        self.__year_model = year    
+        self.__make = make    
+        self.__speed = 0      
 #Accelerate method
 #" Accelerate car. "
 #brake method
