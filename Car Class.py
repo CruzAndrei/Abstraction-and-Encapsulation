@@ -13,10 +13,11 @@ class Car(object):
     def brake(self):
         #Decelerate by 5
         self.__speed -= 5
-#brake method
-#" Decelerate car. "
 #get_speed method
-#" Get current speed of car. "
+    def get_speed(self):
+        #current speed of the car
+        return self.__speed
+
 
 #car method
 # create a Car object
