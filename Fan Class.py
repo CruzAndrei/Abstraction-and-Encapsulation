@@ -16,6 +16,12 @@ class Fan():
         self.on = on          
     #String method
     def __str__(self): 
+        if self.on == True:             
+            return
+        else:
+            return
+          
+        
 #method
 
 #showing the speed
