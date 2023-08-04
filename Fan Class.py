@@ -14,8 +14,10 @@ class Fan():
         self.radius = radius         
         self.color = color         
         self.on = on          
-
+    #String method
+    def __str__(self): 
 #method
+
 #showing the speed
 #method for speed
 #radius
