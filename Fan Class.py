@@ -17,7 +17,8 @@ class Fan():
     #String method
     def __str__(self): 
         if self.on == True:             
-            return 
+            return ("\n\t Fan Speed = " + self.get_Speed() + "\n\t Fan Radius = " + str(self.radius) + "\n\t Fan Color = " + self.color + "\n")         
+ 
         else:
             return
     #method   
