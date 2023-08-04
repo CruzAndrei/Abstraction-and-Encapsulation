@@ -20,7 +20,10 @@ class Car(object):
 
 
 #car method
+def main():
 # create a Car object
+    car = Car("1990 Laser", "Plymouth")
+
 # calls the accelerate method
 
 # calls the brake method five times.
