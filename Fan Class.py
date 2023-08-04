@@ -20,7 +20,6 @@ class Fan():
             return ("\n\t Fan Speed = " + self.get_Speed() + "\n\t Fan Radius = " + str(self.radius) + "\n\t Fan Color = " + self.color + "\n")         
         else:
             return ("\n\t Fan is off" + "\n\t Fan Radius = " + str(self.radius) + "\n\t Fan Color = " + self.color  + "\n")      
-
     #method   
     def get_Speed(self):   
         #showing the speed
@@ -51,6 +50,13 @@ class Fan():
     def get_ON(self):         
         return self.on  
 
-Fan_1 = Fan(True, 10, 3, "Yello")
+Fan_1 = Fan(True, 10, 3, "Yellow")
+Fan_2 = Fan(True , 5 , 2 , "Blue") 
+Fan_3 = Fan(False, 5,2,"Blue")
 
+print("\n FAN 1 :") 
 print(Fan_1)
+print("\n FAN 2 :") 
+print(Fan_2)
+print("\n FAN 2 : AFTER") 
+print(Fan_3)
