@@ -29,6 +29,9 @@ class Fan():
             return "MEDIUM"         
         elif self.speed == 3:             
             return "FAST"  
+        #speed set
+    def set_Speed(self,speed):         
+        self.speed = speed  
 #method for speed
 #radius
 #color
