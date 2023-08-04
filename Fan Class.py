@@ -8,7 +8,12 @@ class Fan():
     FAST = 3
 
 #Constructor
-    def __init__(self ,on , rad ,speed, color):         
+    def __init__(self ,on , radius ,speed, color): 
+        #Fan description
+        self.speed = speed         
+        self.radius = radius         
+        self.color = color         
+        self.on = on          
 
 #method
 #showing the speed
