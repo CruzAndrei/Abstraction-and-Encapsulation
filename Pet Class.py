@@ -35,5 +35,7 @@ animal.set_name(pet_name)
 Animal_Type = input('Please enter animal Type : ')
 animal.set_animal_Type(Animal_Type)
 #age
+pet_age = input('Please enter the age of Pet : ')
+animal.set_age(pet_age)
 
 #print result
