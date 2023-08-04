@@ -1,4 +1,8 @@
+
+class Pet():
 #constructor with arugments
+    def __init__(self):
+
 #name method to return name
 #name method to set the name
 #animal type to return type
