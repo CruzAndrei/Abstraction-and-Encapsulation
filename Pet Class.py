@@ -26,6 +26,7 @@ class Pet():
         self.__age = age
 
 # Creating the pet object
+animal = Pet()
 #Asking user for inputs
 #name
 #type
