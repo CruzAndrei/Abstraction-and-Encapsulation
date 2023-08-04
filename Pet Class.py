@@ -19,7 +19,11 @@ class Pet():
     def set_animal_Type(self, animal_Type):
         self.__animal_type = animal_Type
 #age type to return age
+    def get_age(self):
+        return self.__age
 #age type to set age
+    def set_age(self, age):
+        self.__age = age
 
 # Creating the pet object
 #Asking user for inputs
