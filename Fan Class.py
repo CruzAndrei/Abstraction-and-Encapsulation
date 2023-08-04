@@ -49,3 +49,7 @@ class Fan():
         self.on = False      
     def get_ON(self):         
         return self.on  
+
+Fan_1 = Fan(True, 10, 3, "Yello")
+
+print(Fan_1)
